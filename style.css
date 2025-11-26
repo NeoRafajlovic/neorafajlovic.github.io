@@ -20,7 +20,3 @@ body {
   opacity: 0;
   transition: opacity 500ms ease;
 }
-
-body:hover > #trailer {
-  opacity: 1;
-}
