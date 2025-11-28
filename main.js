@@ -41,7 +41,7 @@ window.addEventListener("scroll", (e) => {
 
 window.onmousedown = (e) => {
   mouseIsUp = false;
-  trailer.style.opacity = 0;
+  trailer.style.opacity = 0.3;
   setTimeout(() => {
     if (mouseIsUp) {
       trailer.style.opacity = 0.75;
@@ -49,5 +49,5 @@ window.onmousedown = (e) => {
     } else {
       cursorIsDown = true;
     }
-  }, 150);
+  }, 200);
 };
