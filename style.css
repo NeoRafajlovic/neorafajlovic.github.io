@@ -1,8 +1,12 @@
+* {
+  font-family: sans-serif;
+  cursor: none;
+  margin: 0px;
+}
+
 body {
   background-color: rgb(20, 20, 20);
-  height: 100vh;
-  margin: 0px;
-  cursor: none;
+  height: 200vh;
 }
 
 #trailer {
@@ -19,4 +23,26 @@ body {
   pointer-events: none;
   opacity: 0;
   transition: opacity 500ms ease;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 150px;
+  transition: height 500ms ease, background-color 500ms ease, opacity 500ms ease;
+  position: fixed;
+  width: calc(100vw - 4px);
+
+  border: 2px solid white;
+  border-radius: 10px;
+
+  opacity: 0.75;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
 }
