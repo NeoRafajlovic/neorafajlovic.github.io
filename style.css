@@ -29,12 +29,13 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 2px;
+  top: 10px;
+  left: 10px;
 
   height: 150px;
   transition: height 500ms ease, background-color 500ms ease, opacity 500ms ease;
   position: fixed;
-  width: calc(100vw - 8px);
+  width: calc(100vw - 24px);
 
   border: 2px solid white;
   border-radius: 10px;
